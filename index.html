@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube To Video</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+    <form method="post">
+      <input type="text" id="input" value="">
+      <button type="submit" id="submit">Convert</button>
+    </form>
+
+    <div id="buttons" style = "display: none;">
+      <a href="">Download</a>
+    </div>
+
+    <script src = "https://ytmp4.github.io/lang.js"></script>
+    <script src = "https://id.ytmp3.plus/assets/js/ytmp3.js?u=NrOSUIDu11tCnRUIUmCCduI&=1655223185"></script>
+    <script type="text/javascript">
+      $("#submit").click(function(){
+        $("#buttons").css("display", "block");
+      });
+    </script>
+  </body>
+</html>
