@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>YouTube To Video</title>
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
+    <script src = "https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
   <body>
-    <form method="post">
-      <input type="text" id="input" value="">
-      <button type="submit" id="convert">Convert</button>
+    <form action="">
+      <input type="text" id="input">
+      <button id="convert">Convert</button>
     </form>
 
-    <a id="file" style = "display: none;">Download</a>
+    <a style = "display: none;" id="file">Download</a>
 
     <script src = "https://ytmp4.github.io/converter.js"></script>
-    <script type="text/javascript">
-      $("#convert").click(function(){
-        $("#file").css("display", "block");
-      });
-    </script>
   </body>
 </html>
